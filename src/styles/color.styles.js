@@ -25,7 +25,7 @@ export const COLORS = {
   YELLOW: "#E8FA72",
   YELLOW1: "#ECD662",
   VELVET: "#AE7C7C",
-  YELLOW2: "#f4ff9b",
+  YELLOW2: "#FFF338",
   GREEN_GRADIENT: "linear-gradient(to right bottom, #7FC8A9, #D5EEBB)",
   GREEN_GRADIENT1: "linear-gradient(to left bottom, #7FC8A9, #D5EEBB)",
   GREEN_GRADIENT2: "linear-gradient(to left, #558776, #7FC8A9)",

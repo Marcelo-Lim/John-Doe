@@ -83,7 +83,7 @@ const useStyles = makeStyles((theme)=>({
     },
     Heroh1:{
         fontSize: 'clamp(3rem,8vw,6rem)',
-        marginBottom: '1.5rem',
+        marginBottom: '160px',
         letterSpacing: '3px',
         padding: '0 1rem',
         fontWeight:'bolder',
