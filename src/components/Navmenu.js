@@ -45,7 +45,7 @@ const NavMenu = () => {
       style={{ boxShadow: "none", background: COLORS.GREEN_GRADIENT2 }}
     >
       <Navbar
-        className='navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow'
+        className='navbar-expand-sm navbar-toggleable-sm  box-shadow'
         dark
       >
         <Container>
