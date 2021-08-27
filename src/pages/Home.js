@@ -10,7 +10,6 @@ import ocean from '../assets/image/ocean.jpg'
 import {COLORS} from '../styles/color.styles'
 import Hero from '../components/HomepageComponents/Hero'
 import Banner from '../components/HomepageComponents/Styles/Banner'
-import { SliderData } from "../components/HomepageComponents/SliderData";
 import { motion } from 'framer-motion';
 import { animationOne } from '../animations';
 
@@ -100,7 +99,7 @@ const Home = () => {
 
     <Divider/>
       <div>
-        <Hero slides={SliderData}/>
+        <Hero />
       </div>
     <Container component="main" maxWidth="md">
       <Paper elevation={0} >
