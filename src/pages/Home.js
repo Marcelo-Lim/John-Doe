@@ -10,7 +10,6 @@ import ocean from '../assets/image/ocean.jpg'
 import {COLORS} from '../styles/color.styles'
 import Hero from '../components/HomepageComponents/Hero'
 import Banner from '../components/HomepageComponents/Styles/Banner'
-import { SliderData } from "../components/HomepageComponents/SliderData";
 import { motion } from 'framer-motion';
 import { animationOne } from '../animations';
 
@@ -100,7 +99,7 @@ const Home = () => {
 
     <Divider/>
       <div>
-        <Hero slides={SliderData}/>
+        <Hero />
       </div>
     <Container component="main" maxWidth="md">
       <Paper elevation={0} >
@@ -129,6 +128,7 @@ const useStyles = makeStyles((theme) => ({
       marginTop: 'clamp(1.5rem,6vw,4rem)',
       maxWidth: 365,
       marginBottom: 'clamp(1.5rem,6vw,4rem)',
+      
 },
 
     titles: {
@@ -168,28 +168,28 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: 'bolder',
       marginTop: theme.spacing(5)
 },
- buttons:{
-   fontSize:30,
-   fontFamily:"Aharoni",
-   maxWidth:"md",
-   backgroundColor: COLORS.GREEN8,
-   color: COLORS.WHITE
- },
- r3:{
+  buttons:{
+    fontSize:30,
+    fontFamily:"Aharoni",
+    maxWidth:"md",
+    backgroundColor: COLORS.GREEN8,
+    color: COLORS.WHITE
+  },
+  r3:{
   fontSize:50,
-   fontFamily:"Times New Roman",
-   fontWeight:"bolder",
-   color: COLORS.YELLOW1
- },
- backbutton:{
-  marginTop: theme.spacing(4),
- },
- bodyend:{
-  fontSize:20,
-  fontFamily: "Pathway Gothic One",
-  marginTop:theme.spacing(5),
-  marginBottom:theme.spacing(5)
- }
+    fontFamily:"Times New Roman",
+    fontWeight:"bolder",
+    color: COLORS.YELLOW1
+  },
+  backbutton:{
+    marginTop: theme.spacing(4),
+  },
+  bodyend:{
+    fontSize:20,
+    fontFamily: "Pathway Gothic One",
+    marginTop:theme.spacing(5),
+    marginBottom:theme.spacing(5)
+  }
 }));
 
 
