@@ -57,10 +57,10 @@ const Hero =({slides})=>{
           </div>
           )})}
           <div className="SliderButtons">
-            <ArrowRightRoundedIcon  style={{ fontSize:'clamp(3rem,6vw,3rem)', color: COLORS.GREEN3 }}onClick={prevSlide}/>
+            <ArrowRightRoundedIcon  style={{ fontSize:'clamp(7rem,6vw,3rem)', color: COLORS.GREEN3 }}onClick={prevSlide}/>
           </div>
           <div className="SliderButtons2">
-            <ArrowLeftRoundedIcon  style={{ fontSize:'clamp(3rem,6vw,3rem)', color: COLORS.GREEN3 }}onClick={nextSlide}/>
+            <ArrowLeftRoundedIcon  style={{ fontSize:'clamp(7rem,6vw,3rem)', color: COLORS.GREEN3 }}onClick={nextSlide}/>
           </div>
     </div>
   </div>
