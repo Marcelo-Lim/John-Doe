@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/John-Doe/static/css/main.6889ebb0.chunk.css",
-    "main.js": "/John-Doe/static/js/main.bef5f114.chunk.js",
-    "main.js.map": "/John-Doe/static/js/main.bef5f114.chunk.js.map",
+    "main.css": "/John-Doe/static/css/main.fc477739.chunk.css",
+    "main.js": "/John-Doe/static/js/main.5ed9323f.chunk.js",
+    "main.js.map": "/John-Doe/static/js/main.5ed9323f.chunk.js.map",
     "runtime-main.js": "/John-Doe/static/js/runtime-main.ce17c2cb.js",
     "runtime-main.js.map": "/John-Doe/static/js/runtime-main.ce17c2cb.js.map",
     "static/css/2.9082872e.chunk.css": "/John-Doe/static/css/2.9082872e.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.52a3bd6d.chunk.js.map": "/John-Doe/static/js/3.52a3bd6d.chunk.js.map",
     "index.html": "/John-Doe/index.html",
     "static/css/2.9082872e.chunk.css.map": "/John-Doe/static/css/2.9082872e.chunk.css.map",
-    "static/css/main.6889ebb0.chunk.css.map": "/John-Doe/static/css/main.6889ebb0.chunk.css.map",
+    "static/css/main.fc477739.chunk.css.map": "/John-Doe/static/css/main.fc477739.chunk.css.map",
     "static/js/2.02c76d5a.chunk.js.LICENSE.txt": "/John-Doe/static/js/2.02c76d5a.chunk.js.LICENSE.txt",
     "static/media/Angelica.2f4c9e9c.jpg": "/John-Doe/static/media/Angelica.2f4c9e9c.jpg",
     "static/media/Irish.38823b53.jpg": "/John-Doe/static/media/Irish.38823b53.jpg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.ce17c2cb.js",
     "static/css/2.9082872e.chunk.css",
     "static/js/2.02c76d5a.chunk.js",
-    "static/css/main.6889ebb0.chunk.css",
-    "static/js/main.bef5f114.chunk.js"
+    "static/css/main.fc477739.chunk.css",
+    "static/js/main.5ed9323f.chunk.js"
   ]
 }
