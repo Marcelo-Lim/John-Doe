@@ -27,6 +27,7 @@ const initialValues = {
   lastName: '',
   email: '',
   mobile: '',
+  message: '',
 
 }
 const [values,setValues] = useState(initialValues);
@@ -86,6 +87,14 @@ const [values,setValues] = useState(initialValues);
                   label="Mobile"
                   name="mobile"
                   value={values.mobile}
+                  onChange = {handleInputChange}
+                  />
+                  <TextField
+                  variant="outlined"
+                  label="Message"
+                  name="message"
+                  multiline rows={4}
+                  value={values.message}
                   onChange = {handleInputChange}
                   />
                   <br/>
