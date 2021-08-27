@@ -4,7 +4,7 @@ This project is to train the interns on Git operations
 
 ## STEPS
 
-1. **Clone the Project** `git clone https://github.com/arman226/simple-project.git`
+1. **Clone the Project** `git clone https://github.com/Marcelo-Lim/John-Doe.git`
 2. **Install Dependencies** `npm install`
 3. **Run the project** `npm start`
 4. **Create a new branch** `git checkout b feature/{specific-feature}`

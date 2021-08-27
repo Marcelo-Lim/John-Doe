@@ -4,6 +4,8 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 
+import "./footer.css";
+
 const footer = () => {
     return (
         <footer>
@@ -90,9 +92,9 @@ const footer = () => {
                         </Grid>
                     </Grid>
                     <Box textAlign="center">
-                    <FacebookIcon fontSize="large" />
-                    <InstagramIcon fontSize="large" />
-                    <TwitterIcon fontSize="large" />
+                    <a href="https://www.facebook.com" className="facebook social"> <FacebookIcon fontSize="large" /> </a>
+                    <a href="https://www.instagram.com" className="instagram social"> <InstagramIcon fontSize="large" /> </a>
+                    <a href="https://www.twitter.com" className="twitter social"> <TwitterIcon fontSize="large" /> </a>
                     </Box>
                     <Box textAlign="center" pt={{xs: 5, sm: 5 }} pb={{xs:5, sm: 0}}>
                         JohnDoe &reg; {new Date().getFullYear()}
