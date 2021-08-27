@@ -88,7 +88,8 @@ const useStyles = makeStyles((theme)=>({
         padding: '0 1rem',
         fontWeight:'bolder',
         color: COLORS.YELLOW2,
-        textShadow: '2px 2px #000'
+        textShadow: '2px 2px #000',
+        
     },
 }))
 export default Hero
