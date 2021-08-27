@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/John-Doe/static/css/main.9320c70d.chunk.css",
-    "main.js": "/John-Doe/static/js/main.bdcfbb74.chunk.js",
-    "main.js.map": "/John-Doe/static/js/main.bdcfbb74.chunk.js.map",
-    "runtime-main.js": "/John-Doe/static/js/runtime-main.d462663a.js",
-    "runtime-main.js.map": "/John-Doe/static/js/runtime-main.d462663a.js.map",
-    "static/css/2.818011ed.chunk.css": "/John-Doe/static/css/2.818011ed.chunk.css",
-    "static/js/2.fd18cfa4.chunk.js": "/John-Doe/static/js/2.fd18cfa4.chunk.js",
-    "static/js/2.fd18cfa4.chunk.js.map": "/John-Doe/static/js/2.fd18cfa4.chunk.js.map",
-    "static/js/3.3f9a1244.chunk.js": "/John-Doe/static/js/3.3f9a1244.chunk.js",
-    "static/js/3.3f9a1244.chunk.js.map": "/John-Doe/static/js/3.3f9a1244.chunk.js.map",
+    "main.css": "/John-Doe/static/css/main.6889ebb0.chunk.css",
+    "main.js": "/John-Doe/static/js/main.bef5f114.chunk.js",
+    "main.js.map": "/John-Doe/static/js/main.bef5f114.chunk.js.map",
+    "runtime-main.js": "/John-Doe/static/js/runtime-main.ce17c2cb.js",
+    "runtime-main.js.map": "/John-Doe/static/js/runtime-main.ce17c2cb.js.map",
+    "static/css/2.9082872e.chunk.css": "/John-Doe/static/css/2.9082872e.chunk.css",
+    "static/js/2.02c76d5a.chunk.js": "/John-Doe/static/js/2.02c76d5a.chunk.js",
+    "static/js/2.02c76d5a.chunk.js.map": "/John-Doe/static/js/2.02c76d5a.chunk.js.map",
+    "static/js/3.52a3bd6d.chunk.js": "/John-Doe/static/js/3.52a3bd6d.chunk.js",
+    "static/js/3.52a3bd6d.chunk.js.map": "/John-Doe/static/js/3.52a3bd6d.chunk.js.map",
     "index.html": "/John-Doe/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/John-Doe/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.9320c70d.chunk.css.map": "/John-Doe/static/css/main.9320c70d.chunk.css.map",
-    "static/js/2.fd18cfa4.chunk.js.LICENSE.txt": "/John-Doe/static/js/2.fd18cfa4.chunk.js.LICENSE.txt",
+    "static/css/2.9082872e.chunk.css.map": "/John-Doe/static/css/2.9082872e.chunk.css.map",
+    "static/css/main.6889ebb0.chunk.css.map": "/John-Doe/static/css/main.6889ebb0.chunk.css.map",
+    "static/js/2.02c76d5a.chunk.js.LICENSE.txt": "/John-Doe/static/js/2.02c76d5a.chunk.js.LICENSE.txt",
     "static/media/Angelica.2f4c9e9c.jpg": "/John-Doe/static/media/Angelica.2f4c9e9c.jpg",
     "static/media/Irish.38823b53.jpg": "/John-Doe/static/media/Irish.38823b53.jpg",
     "static/media/Marcelo.0f4cf4a1.jpg": "/John-Doe/static/media/Marcelo.0f4cf4a1.jpg",
@@ -31,10 +31,10 @@
     "static/media/video-1.59e75226.mp4": "/John-Doe/static/media/video-1.59e75226.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.d462663a.js",
-    "static/css/2.818011ed.chunk.css",
-    "static/js/2.fd18cfa4.chunk.js",
-    "static/css/main.9320c70d.chunk.css",
-    "static/js/main.bdcfbb74.chunk.js"
+    "static/js/runtime-main.ce17c2cb.js",
+    "static/css/2.9082872e.chunk.css",
+    "static/js/2.02c76d5a.chunk.js",
+    "static/css/main.6889ebb0.chunk.css",
+    "static/js/main.bef5f114.chunk.js"
   ]
 }
