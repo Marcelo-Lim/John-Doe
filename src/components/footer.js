@@ -1,8 +1,9 @@
 import React from 'react'
-import { Container, Grid, Box, Link} from "@material-ui/core";
+import { Container, Grid, Box, Link,} from "@material-ui/core";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import "./footer.css";
 
 import "./footer.css";
 
@@ -21,7 +22,7 @@ const footer = () => {
                         <Grid item xs={12} sm={3}>
                             <Box borderBottom={1}>Help</Box>
                                 <Box>
-                                    <Link href="/" color="inherit">
+                                    <Link href="../pages/ContactUs.js" color="inherit">
                                         Contact
                                     </Link>
                                 </Box>
@@ -37,35 +38,26 @@ const footer = () => {
                                 </Box>
                         </Grid>
                         <Grid item xs={12} sm={3}>
-                            <Box borderBottom={1}>Account</Box>
+                            <Box borderBottom={1}>Design Services</Box>
                                 <Box>
-                                    <Link href="/" color="inherit">
-                                        Login
-                                    </Link>
-                                </Box>
-                                <Box>
-                                    <Link href="/" color="inherit">
-                                        Register
-                                    </Link>
+                                    <h7 color="inherit">
+                                        2200 Western Ave, Suite 302, Seattle, WA 98121
+                                    </h7>
                                 </Box>
                         </Grid>
                         <Grid item xs={12} sm={3}>
-                            <Box borderBottom={1}>Messages</Box>
+                            <Box borderBottom={1}>Why John Doe</Box>
                                 <Box>
                                     <Link href="/" color="inherit">
-                                        Backup
+                                        Partners
                                     </Link>
                                 </Box>
                                 <Box>
                                     <Link href="/" color="inherit">
-                                        History
+                                        Customers
                                     </Link>
                                 </Box>
-                                <Box>
-                                    <Link href="/" color="inherit">
-                                        Roll
-                                    </Link>
-                                </Box>
+                                
                         </Grid>
                         <Grid item xs={12} sm={3}>
                             <Box borderBottom={1}>About</Box>
@@ -92,9 +84,9 @@ const footer = () => {
                         </Grid>
                     </Grid>
                     <Box textAlign="center">
-                    <a href="https://www.facebook.com" className="facebook social"> <FacebookIcon fontSize="large" /> </a>
-                    <a href="https://www.instagram.com" className="instagram social"> <InstagramIcon fontSize="large" /> </a>
-                    <a href="https://www.twitter.com" className="twitter social"> <TwitterIcon fontSize="large" /> </a>
+                    <a href="http://www.facebook.com" className="facebook social"> <FacebookIcon fontSize="large" /> </a>
+                    <a href="http://www.instagram.com" className="instagram social"> <InstagramIcon fontSize="large" /> </a>
+                    <a href="http://www.twitter.com" className="twitter social"> <TwitterIcon fontSize="large" /> </a>
                     </Box>
                     <Box textAlign="center" pt={{xs: 5, sm: 5 }} pb={{xs:5, sm: 0}}>
                         JohnDoe &reg; {new Date().getFullYear()}

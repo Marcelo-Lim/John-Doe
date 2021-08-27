@@ -93,8 +93,7 @@ const [values,setValues] = useState(initialValues);
                   variant="outlined"
                   label="Message"
                   name="message"
-                  multiline
-                  rows={4}
+                  multiline rows={4}
                   value={values.message}
                   onChange = {handleInputChange}
                   />
