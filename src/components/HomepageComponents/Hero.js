@@ -2,9 +2,9 @@ import React, { useRef, useState,useEffect } from 'react';
 import './Hero.css';
 import {COLORS} from '../../styles/color.styles';
 import {makeStyles} from '@material-ui/core';
-import ArrowLeftRoundedIcon from '@material-ui/icons/ArrowLeftRounded';
 import Carousel from 'react-material-ui-carousel'
-import ArrowRightRoundedIcon from '@material-ui/icons/ArrowRightRounded';
+// import ArrowLeftRoundedIcon from '@material-ui/icons/ArrowLeftRounded';
+// import ArrowRightRoundedIcon from '@material-ui/icons/ArrowRightRounded';
 
 
 const Hero =({slides})=>{
@@ -25,14 +25,14 @@ const Hero =({slides})=>{
       }
   },[current,length])
 
-  const nextSlide =() => {
-      setCurrent(current=== length -1?0:current+1)
-      console.log(current)
-  }
-  const prevSlide =() => {
-      setCurrent(current=== 0?length -1:current-1);
-      console.log(current)
-  }
+  // const nextSlide =() => {
+  //     setCurrent(current=== length -1?0:current+1)
+  //     console.log(current)
+  // }
+  // const prevSlide =() => {
+  //     setCurrent(current=== 0?length -1:current-1);
+  //     console.log(current)
+  // }
   if(!Array.isArray(slides)|| slides.length<=0){
       return null
   }
@@ -47,7 +47,7 @@ const Hero =({slides})=>{
                 
             {index === current &&(
                     <div className="HeroSlide">
-                        <img src={slide.image } className="HeroImage"></img>
+                        <img src={slide.image } className="HeroImage" alt="heroimage"></img>
                       <div className={classes.HeroItems}>
                         <h1 className={classes.Heroh1}>{slide.title}</h1>
                         <p>{slide.details}</p>
@@ -56,16 +56,18 @@ const Hero =({slides})=>{
             )}
           </div>
           )})}
-          <div className="SliderButtons">
+          {/* <div className="SliderButtons">
             <ArrowRightRoundedIcon  style={{ fontSize:'clamp(7rem,6vw,3rem)', color: COLORS.GREEN3 }}onClick={prevSlide}/>
           </div>
           <div className="SliderButtons2">
             <ArrowLeftRoundedIcon  style={{ fontSize:'clamp(7rem,6vw,3rem)', color: COLORS.GREEN3 }}onClick={nextSlide}/>
-          </div>
+          </div> */}
     </div>
   </div>
     )
 }
+  
+
         return(
               
           <Carousel>
